@@ -1,0 +1,112 @@
+.services {
+    margin: 5vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    margin: 2vw 0;
+    width: 28.906vw;
+}
+
+.content_headline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content_message {
+    text-align: center;
+}
+
+.content_message span {
+    color: #999999;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.services_offered_panel {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5vw;
+}
+
+.services_offered {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    width: 13.672vw;
+}
+
+.so_content {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.so_name {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 0.938vw;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.677vw;
+}
+
+.so_detail {
+    font-size: 0.729vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    margin-bottom: 0;
+    color: #999999;
+}
+
+.material-symbols-outlined {
+    font-size: 2.604vw;
+    color: #f5af00;
+}
+@media (max-width: 768px) {
+  .services {
+    margin: 10vw 0;
+  }
+
+  .content {
+    width: 90vw;
+    margin: 5vw 0;
+    gap: 3vw;
+  }
+
+  .services_offered_panel {
+    flex-direction: column;
+    gap: 8vw;
+  }
+
+  .services_offered {
+    width: 80vw;
+  }
+
+  .so_name {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+
+  .so_detail {
+    font-size: 3.5vw;
+    line-height: 5vw;
+  }
+
+  .material-symbols-outlined {
+    font-size: 8vw;
+  }
+
+  .content_message span {
+    font-size: 3.5vw;
+    line-height: 5vw;
+  }
+}
